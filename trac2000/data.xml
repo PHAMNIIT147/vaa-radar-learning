@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ListMenu>
+    <Menu ten ="LOC/MAIN" tenht= "LOC/MAIN" Parent ="" NumberOfProperties = "1" CanhVanBan ="Center" CoUpdate="NO" LaMenuCuoi ="NO" >
+		<MenuCon ten ="MODE/PROG" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="MODE/PROG 10">
+			<Property value = ":  1" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="MODE/DISP" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="MODE/DISP 20">
+			<Property value = ":  2" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="PARA/DISP" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="PARA/DISP 30">
+			<Property value = ":  3" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="PARA/PROG" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="PARA/PROG 40">
+			<Property value = ":  4" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="FAIL/DISP" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="FAIL/DISP 50">
+			<Property value = ":  5" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="TEST/PROG" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="TEST/PROG 60">
+			<Property value = ":  6" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="SIGN/DISP" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="SIGN/DISP 70">
+			<Property value = ":  7" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="PARA/PRINT" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="PARA/PRINT 80">
+			<Property value = ":  8" type ="String" Max ="" Min =""/>
+		</MenuCon>
+	</Menu>	
+	<Menu ten ="MODE/PROG 10" tenht= "" Parent ="LOC/MAIN" NumberOfProperties = "1" CanhVanBan ="Left" CoUpdate="NO" LaMenuCuoi ="NO">
+		<MenuCon ten ="LOC/OPER" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Mon.para">
+			<Property value = ":  1" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="LOC/MAINT" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Maint.val.lim">
+			<Property value = ":  2*" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="REMOTE" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ":  3" type ="String" Max ="" Min =""/>
+		</MenuCon>
+	</Menu>	
+	<Menu ten ="MODE/DISP 20" tenht= "" Parent ="LOC/MAIN" NumberOfProperties = "1" CanhVanBan ="Left" CoUpdate="NO" LaMenuCuoi ="NO" >
+		<MenuCon ten ="CLUTTER OPTION" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Mon.para">
+			<Property value = ":  YES" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="15MHz CLOCK " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Maint.val.lim">
+			<Property value = ":  INT" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="FTC CELL      " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ":  8Q" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="PAC CELL(ns)" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 800" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="TRACKING UNIT " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": EXT" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="IEEE ADDRESS   " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": DEC" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="MASTER TVD  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": YES" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="QUANTUM(ns) " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 400" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="DELAY DIV    " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 8Q" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		
+	</Menu>	
+	<Menu ten ="MODE/DISP 21" tenht= "" Parent ="MODE/DISP 20" NumberOfProperties = "1" CanhVanBan ="Left" CoUpdate="NO" LaMenuCuoi ="NO">
+		<MenuCon ten ="SYNCHRO GENE " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Mon.para">
+			<Property value = ": A" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="MTI CHANNEL   " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Maint.val.lim">
+			<Property value = ":  ON" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="+FR/4 CHANNEL" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ":  ON" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="RR STATUS " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": GO" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="T1>2-DIV-STAT " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": GO" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="OUTPUT STAT " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": GO" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="AUTO DIV MODE " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": A+B" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="ZERO CHANNEL " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": ON" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="-FR/4 CHANNEL" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": ON" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="ER STATUS " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": GO" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="2>1-DIV-STAT " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": GO" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		
+		
+	</Menu>	
+	<Menu ten ="PARA/DISP 30" tenht= ""  Parent ="LOC/MAIN" NumberOfProperties = "1" CanhVanBan ="Left" CoUpdate="NO" LaMenuCuoi ="NO">
+		<MenuCon ten ="LC STC    " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Mon.para">
+			<Property value = ": 1" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="HC STC    " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Maint.val.lim">
+			<Property value = ":  1" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="ZERO CHAN " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ":  4P" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="MTI CHAN    " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 4P" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="DIV  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": A+B" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="LOAD LIM  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": ON" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="COR LAW    " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 1" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="STAG" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": ON" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="EXTR LAW " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": STD" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="WEATH-VID " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": EDGE" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="CFAR-VIDEO " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 1" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="J08DISP" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": FE" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="SOFTWEAR REVISION NUMBER" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 01_06" type ="String" Max ="" Min =""/>
+		</MenuCon>
+			
+	</Menu>	
+	<Menu ten ="PARA/DISP 31" tenht= ""  Parent = "PARA/DISP 30" NumberOfProperties = "1" CanhVanBan ="Left" CoUpdate="NO" LaMenuCuoi ="NO">
+		<MenuCon ten ="ZERO CHAN " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Mon.para">
+			<Property value = ": ON" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="+FR/4 CHAN   " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": ON" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="ALL FTC  "  IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": ON" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="SIGN-SYN    " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": AA$" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="ROTATION " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": EXT" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="FIX-ECHO " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": ON" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="MTI CHAN   " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Maint.val.lim">
+			<Property value = ": ON" type ="String" Max ="" Min =""/>
+		</MenuCon>	
+		<MenuCon ten ="-FR/4 CHAN " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": ON" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		
+		<MenuCon ten ="ALL PAC  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": ON" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		
+		<MenuCon ten ="HANDSHAKE" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": EXT" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		
+		<MenuCon ten ="MOV-ECHO" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 1" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		
+		<MenuCon ten ="MOV-FIX ATT" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": " type ="String" Max ="" Min =""/>
+		</MenuCon>
+	</Menu>	
+	<Menu ten ="PARA/PROG 40" tenht= ""  Parent ="LOC/MAIN" NumberOfProperties = "1" CanhVanBan ="Left" CoUpdate="NO" LaMenuCuoi ="NO" >
+		<MenuCon ten ="RESET TVD 900   " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Mon.para">
+			<Property value = ":  0" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="RESET ZERO PAC   " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Maint.val.lim">
+			<Property value = ":  2" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="RESET +FR/4 PAC " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ":  4" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="RESET ALL PAC   " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 6" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="RESET LOAD LIM   " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 8" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="RESET SYNC  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 1" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="RESET MTI PAC   " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 3" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="RESET -FR/4 PAC" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 5" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="RESET AUTO STC  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 7" type ="String" Max ="" Min =""/>
+		</MenuCon>		
+		<MenuCon ten ="RESET FAILURES  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 9" type ="String" Max ="" Min =""/>
+		</MenuCon>	
+	</Menu>	
+	<Menu ten ="PARA/PROG 41" tenht= ""  Parent = "PARA/PROG 40" NumberOfProperties = "1" CanhVanBan ="Left" CoUpdate="NO" LaMenuCuoi ="NO">
+		<MenuCon ten ="LC STC 1 " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Mon.para">
+			<Property value = ": 0*" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="AUTO LC STC" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 2" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="HC STC 1"  IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 4*" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="AUTO HC STC" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 6" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="STAG ON" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 8*" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="LC STC 2 " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 1" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="NO LC STC" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Maint.val.lim">
+			<Property value = ": 3" type ="String" Max ="" Min =""/>
+		</MenuCon>		
+		<MenuCon ten ="HC STC 2" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 5" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="NO HC STC" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 7" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="STAG OFF" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 9" type ="String" Max ="" Min =""/>
+		</MenuCon>		
+	</Menu>	
+	
+	<Menu ten ="PARA/PROG 42" tenht= ""  Parent = "PARA/PROG 40" NumberOfProperties = "1" CanhVanBan ="Left" CoUpdate="NO" LaMenuCuoi ="NO">
+		<MenuCon ten ="4P ZERO-CHAN" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Mon.para">
+			<Property value = ": 0*" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="4P MTI-CHAN" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 2" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="CLUTTER OPT ON"  IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 4*" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="DIVERSITY A" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 6" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="DIVERSITY A+B" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 8*" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="5P ZERO-CHAN" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 1" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="5P MTI-CHAN" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Maint.val.lim">
+			<Property value = ": 3" type ="String" Max ="" Min =""/>
+		</MenuCon>		
+		<MenuCon ten ="CLUTTER OPT OFF" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 5" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="DIVERSITY B" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 7" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="DIVERSITY A.B" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 9" type ="String" Max ="" Min =""/>
+		</MenuCon>		
+	</Menu>	
+	
+	<Menu ten ="PARA/PROG 43" tenht= ""  Parent = "PARA/PROG 40" NumberOfProperties = "1" CanhVanBan ="Left" CoUpdate="NO" LaMenuCuoi ="NO">
+		<MenuCon ten ="J08 DISP FE" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Mon.para">
+			<Property value = ": 0*" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="WEATH-VID EDGE" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 2*" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="COR LAW 1"  IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 4*" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="STD EXTRAC LAW" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 6*" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="CFAR VIDEO 1" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 8*" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="LOAD LIM ON" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": A*" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="J08 DISP PRS" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 1" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="WEATH-VID FULL" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Maint.val.lim">
+			<Property value = ": 3" type ="String" Max ="" Min =""/>
+		</MenuCon>		
+		<MenuCon ten ="COR LAW 2" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 5" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="HARD EXTRAC LAW" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 7" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="CFAR VIDEO 2" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 9" type ="String" Max ="" Min =""/>
+		</MenuCon>		
+		<MenuCon ten ="LOAD LIM OFF" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": B" type ="String" Max ="" Min =""/>
+		</MenuCon>
+	</Menu>	
+	
+	<Menu ten ="PARA/PROG 44" tenht= ""  Parent = "PARA/PROG 40" NumberOfProperties = "1" CanhVanBan ="Left" CoUpdate="NO" LaMenuCuoi ="NO">
+		<MenuCon ten ="ZERO CHAN ON" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Mon.para">
+			<Property value = ": 0*" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="MTI CHAN ON" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 2*" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="+FR/4 CHAN ON"  IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 4*" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="-FR/4 CHAN ON" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 6*" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="ALL FTC ON" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 8*" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="ALL PAC  ON" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": A*" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="ZERO CHAN OFF" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 1" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="MTI CHAN OFF"  IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Maint.val.lim">
+			<Property value = ": 3" type ="String" Max ="" Min =""/>
+		</MenuCon>		
+		<MenuCon ten ="+FR/4 CHAN OFF" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 5" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="-FR/4 CHAN OFF" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 7" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="ALL FTC OFF" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 9" type ="String" Max ="" Min =""/>
+		</MenuCon>		
+		<MenuCon ten ="ALL PAC OFF" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": B" type ="String" Max ="" Min =""/>
+		</MenuCon>
+	</Menu>	
+	<Menu ten ="PARA/PROG 45" tenht= ""  Parent = "PARA/PROG 40" NumberOfProperties = "1" CanhVanBan ="Left" CoUpdate="NO" LaMenuCuoi ="NO">
+		<MenuCon ten ="ROTATION EXT" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Mon.para">
+			<Property value = ": 0*" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="MOV-ECH 1" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 2*" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="MOV-ECH CONT"  IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 4" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="FIX-ECH ON" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 6*" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="MOV/FIX ATT" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": CXY" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="HANDSHAKE EXT" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 8*" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="ROTATION INT" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 1" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="MOV-ECH 16"  IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Maint.val.lim">
+			<Property value = ": 3" type ="String" Max ="" Min =""/>
+		</MenuCon>		
+		<MenuCon ten ="MOV-ECH OFF" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 5" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="FIX-ECH OFF" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 7" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="(min =00 max =63) (XY= )"   IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = " " type ="String" Max ="" Min =""/>
+		</MenuCon>		
+		<MenuCon ten ="HANDSHAKE INT" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 9" type ="String" Max ="" Min =""/>
+		</MenuCon>
+	</Menu>	
+	<Menu ten ="PARA/PROG 46" tenht= ""  Parent = "PARA/PROG 40" NumberOfProperties = "1" CanhVanBan ="Left" CoUpdate="NO" LaMenuCuoi ="NO">
+		<MenuCon ten ="SIGN-SYN" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Mon.para">
+			<Property value = ": CXY" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="IF STC ON" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 1*" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="I VIDEO ON"  IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 3*" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="Q VIDEO ON" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 5*" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="    " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="(XY=HEX)       " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = " (XY = )" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="IF STC OFF"  IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Maint.val.lim">
+			<Property value = ": 2" type ="String" Max ="" Min =""/>
+		</MenuCon>		
+		<MenuCon ten ="I VIDEO OFF" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 4" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="Q VIDEO OFF" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 6" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten =" "   IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = " " type ="String" Max ="" Min =""/>
+		</MenuCon>		
+		<MenuCon ten ="  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>
+	</Menu>	
+	
+	<Menu ten ="FAIL/DISP 50" tenht= ""  Parent ="LOC/MAIN" NumberOfProperties = "1" CanhVanBan ="Left" CoUpdate="NO" LaMenuCuoi ="NO" >
+		<MenuCon ten ="FU01   " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Mon.para">
+			<Property value = ":" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="FU02  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Maint.val.lim">
+			<Property value = ":" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="FU03 " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ":" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="FU04   " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ":" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="FU05    " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ":"  type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="FU06    " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ":" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="    " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = " " type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = " " type ="String" Max ="" Min =""/>
+		</MenuCon>		
+		<MenuCon ten ="  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>	
+		<MenuCon ten ="       " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten =" " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = " " type ="String" Max ="" Min =""/>
+		</MenuCon>
+	</Menu>	
+	<Menu ten ="FAIL/DISP 51" tenht= ""  Parent ="LOC/MAIN" NumberOfProperties = "1" CanhVanBan ="Left" CoUpdate="NO" LaMenuCuoi ="NO" >
+		<MenuCon ten ="FU07" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Mon.para">
+			<Property value = ":" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="FU08" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Maint.val.lim">
+			<Property value = ":" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="FU09" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ":" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="FU10" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ":" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="FU21" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ":"  type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="FU22" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ":" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="    " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = " " type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = " " type ="String" Max ="" Min =""/>
+		</MenuCon>		
+		<MenuCon ten ="  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>	
+		<MenuCon ten ="       " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten =" " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = " " type ="String" Max ="" Min =""/>
+		</MenuCon>
+	</Menu>	
+	
+	<Menu ten ="FAIL/DISP 52" tenht= ""  Parent ="LOC/MAIN" NumberOfProperties = "1" CanhVanBan ="Left" CoUpdate="NO" LaMenuCuoi ="NO" >
+		<MenuCon ten ="FU24" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Mon.para">
+			<Property value = ":" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="FU25" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Maint.val.lim">
+			<Property value = ":" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten =" " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten =" " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten =" " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ""  type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten =" " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="    " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = " " type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = " " type ="String" Max ="" Min =""/>
+		</MenuCon>		
+		<MenuCon ten ="  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>	
+		<MenuCon ten ="       " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten =" " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = " " type ="String" Max ="" Min =""/>
+		</MenuCon>
+	</Menu>	
+	
+	<Menu ten ="TEST/PROG 60" tenht= "" Parent ="LOC/MAIN" NumberOfProperties = "1" CanhVanBan ="Left" CoUpdate="NO" LaMenuCuoi ="NO" >
+		<MenuCon ten ="   " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Mon.para">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="FULL TEST   " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Maint.val.lim">
+			<Property value = ":  FF" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="FU TESTED " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ":  XX" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="   " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="STOP TEST        " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 00" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="TEST PROGRAM OPERATING *" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="    " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = " " type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = " " type ="String" Max ="" Min =""/>
+		</MenuCon>		
+		<MenuCon ten ="  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>	
+		<MenuCon ten ="       " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="FU TESTED" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": NO" type ="String" Max ="" Min =""/>
+		</MenuCon>
+	</Menu>	
+	
+	
+	
+	<Menu ten ="SIGN/DISP 70" tenht= "" Parent ="LOC/MAIN" NumberOfProperties = "1" CanhVanBan ="Left" CoUpdate="NO" LaMenuCuoi ="NO" >
+		<MenuCon ten ="   " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Mon.para">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="ZERO PAC MU    " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Maint.val.lim">
+			<Property value = ":  2" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="ZERO PAC THRES " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ":  4" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="   " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="MTI PAC MU        " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 8" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="MTI PAC THRES    " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": A" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="ZERO PAC SD    " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 3" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="ZERO FTC THRES  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 5" type ="String" Max ="" Min =""/>
+		</MenuCon>		
+		<MenuCon ten ="  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>	
+		<MenuCon ten =" MTI PAC SC      " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 9" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten =" MTI FTC THRES  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": B" type ="String" Max ="" Min =""/>
+		</MenuCon>
+	</Menu>	
+	
+	<Menu ten ="SIGN/DISP 71" tenht= "" Parent ="SIGN/DISP 70" NumberOfProperties = "1" CanhVanBan ="Left" CoUpdate="NO" LaMenuCuoi ="NO" >
+		<MenuCon ten ="   " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Mon.para">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="+FR/4 PAC MU " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Maint.val.lim">
+			<Property value = ":  2" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="+FR/4 PAC THRES " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ":  4" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="   " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="-FR/4 PAC MU  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 8" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="-FR/4 PAC THRES " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": A" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="+FR/4 PAC SD      " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 3" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="+FR/4 FTC THRES" IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 5" type ="String" Max ="" Min =""/>
+		</MenuCon>		
+		<MenuCon ten ="  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>	
+		<MenuCon ten =" -FR/4 PAC SC        " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 9" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten =" -FR/4 FTC THRES " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": B" type ="String" Max ="" Min =""/>
+		</MenuCon>
+	</Menu>	
+	
+	<Menu ten ="SIGN/DISP 72" tenht= "" Parent ="SIGN/DISP 70" NumberOfProperties = "1" CanhVanBan ="Left" CoUpdate="NO" LaMenuCuoi ="NO" >
+		<MenuCon ten ="   " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Mon.para">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="CFAR ZERO VIDEO  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Maint.val.lim">
+			<Property value = ":  0" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="CFAR +FR/4 VIDEO " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ":  2" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten =" LOAD LIM THRES    " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 4 " type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="LC STC   " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 6" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="STC CELLS  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 8" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="CFAR MTI VIDEO " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 1" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="CFAR -FR/4 VIDEO " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 3" type ="String" Max ="" Min =""/>
+		</MenuCon>		
+		<MenuCon ten ="LOAD LIM CELLS " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 5" type ="String" Max ="" Min =""/>
+		</MenuCon>	
+		<MenuCon ten =" HC STC   " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 7" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten =" LC/HC " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = ": 9" type ="String" Max ="" Min =""/>
+		</MenuCon>
+	</Menu>	
+	
+	<Menu ten ="PARA/PRINT 80" tenht= "" Parent ="LOC/MAIN" NumberOfProperties = "1" CanhVanBan ="Left" CoUpdate="NO" LaMenuCuoi ="NO">
+		<MenuCon ten ="PRINT CONFIGURATION " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Mon.para">
+			<Property value = "PARA:1" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="PRINT OPERATING     " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="Maint.val.lim">
+			<Property value = "PARA:2" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="PRINT INSTALLATION  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "PARA:3" type ="String" Max ="" Min =""/>
+		</MenuCon>
+		<MenuCon ten ="PRINT ALL  " IsAllowUpdate = "NO" DisplayUpdate ="NO" MenuTiepTheo ="das">
+			<Property value = "PARA:4" type ="String" Max ="" Min =""/>
+		</MenuCon>
+	</Menu>	
+</ListMenu>
